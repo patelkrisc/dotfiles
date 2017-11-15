@@ -24,8 +24,8 @@ log $TITLE "This might take a little while.\n"
 
 log $STEP "Configuration files"
 cp color.sh ~
-cp .zshrc ~
-source .zshrc > /dev/null
+cp ~/.zshrc ~
+source ~/.zshrc > /dev/null
 touch ~/.hushlogin
 touch ~/.reminders
 rm ~/sgoinfre &> /dev/null
